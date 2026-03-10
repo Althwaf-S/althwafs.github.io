@@ -1,45 +1,40 @@
 <!DOCTYPE html>
 <html>
+
 <head>
 
-<title>Althwaf | Aerospace Engineer</title>
+<title>Althwaf S | Aerospace Engineer</title>
 
-<link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;600&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap" rel="stylesheet">
 
 <style>
 
-*{
-margin:0;
-padding:0;
-box-sizing:border-box;
-}
-
 body{
+margin:0;
 font-family:'Orbitron',sans-serif;
 background:#050b18;
 color:white;
-overflow-x:hidden;
 }
 
 /* HEADER */
 
 header{
 text-align:center;
-padding:60px 20px;
+padding:80px 20px;
 background:linear-gradient(180deg,#08142b,#02060f);
 }
 
 header h1{
-font-size:48px;
+font-size:50px;
 letter-spacing:3px;
 }
 
 header p{
-margin-top:10px;
 color:#00eaff;
+margin-top:10px;
 }
 
-/* NAVIGATION */
+/* NAVBAR */
 
 nav{
 margin-top:20px;
@@ -57,7 +52,7 @@ nav a:hover{
 color:#00eaff;
 }
 
-/* SECTION */
+/* SECTIONS */
 
 section{
 padding:80px 10%;
@@ -67,7 +62,7 @@ padding:80px 10%;
 
 .projects{
 display:grid;
-grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
 gap:30px;
 margin-top:40px;
 }
@@ -77,7 +72,7 @@ margin-top:40px;
 .card{
 background:#08142b;
 padding:25px;
-border-radius:12px;
+border-radius:10px;
 transition:0.4s;
 border:1px solid #0f274a;
 }
@@ -87,14 +82,14 @@ transform:translateY(-10px);
 box-shadow:0 10px 30px rgba(0,234,255,0.2);
 }
 
-.card h3{
-margin-bottom:10px;
-color:#00eaff;
+.card img{
+width:100%;
+border-radius:8px;
+margin-bottom:15px;
 }
 
-.card p{
-font-size:14px;
-line-height:1.6;
+.card h3{
+color:#00eaff;
 }
 
 /* SKILLS */
@@ -120,11 +115,12 @@ border:1px solid #0f274a;
 text-align:center;
 }
 
+/* FOOTER */
+
 footer{
 text-align:center;
 padding:30px;
 background:#02060f;
-margin-top:40px;
 }
 
 </style>
@@ -140,10 +136,12 @@ margin-top:40px;
 <p>Aerospace Engineer | UAV Systems | Aircraft Design</p>
 
 <nav>
+
 <a href="#about">About</a>
 <a href="#projects">Projects</a>
 <a href="#skills">Skills</a>
 <a href="#contact">Contact</a>
+
 </nav>
 
 </header>
@@ -152,11 +150,12 @@ margin-top:40px;
 
 <h2>About Me</h2>
 
-<p style="margin-top:20px;max-width:700px;">
-Aerospace Engineering student passionate about aircraft design, UAV systems,
-and space technology. Experienced in CAD modeling using SolidWorks and
-Fusion 360 with hands-on aerospace projects including UAV development,
-CubeSat systems, and embedded monitoring platforms.
+<p style="margin-top:20px;max-width:700px;line-height:1.6;">
+
+Aerospace Engineering student passionate about aircraft design, UAV systems and space technology.
+Experienced in CAD modeling, embedded aerospace systems and real-world engineering projects
+including UAV development, CubeSat telemetry systems and aircraft modeling.
+
 </p>
 
 </section>
@@ -168,23 +167,43 @@ CubeSat systems, and embedded monitoring platforms.
 <div class="projects">
 
 <div class="card">
+
+<img src="uav.jpg">
+
 <h3>RC MQ-9 Reaper UAV</h3>
-<p>Designed and fabricated a functional RC surveillance aircraft inspired by MQ-9 Reaper platform with onboard monitoring system.</p>
+
+<p>Designed and fabricated a functional RC surveillance aircraft with onboard monitoring system.</p>
+
 </div>
 
 <div class="card">
+
+<img src="boeing737.jpg">
+
 <h3>Boeing 737 CAD Model</h3>
-<p>Developed a high-fidelity CAD model of Boeing 737 aircraft using SolidWorks and Fusion 360 rendering.</p>
+
+<p>Created detailed aircraft CAD model using SolidWorks and Fusion 360.</p>
+
 </div>
 
 <div class="card">
-<h3>CubeSat Monitoring System</h3>
-<p>Built CubeSat payload prototype using ESP32 microcontroller with environmental sensors and telemetry dashboard.</p>
+
+<img src="cubesat.jpg">
+
+<h3>CubeSat Telemetry System</h3>
+
+<p>Developed CubeSat environmental monitoring payload with ESP32 sensors.</p>
+
 </div>
 
 <div class="card">
+
+<img src="esp32cam.jpg">
+
 <h3>AI Detection System</h3>
-<p>Developed ESP32-CAM AI surveillance system capable of detecting animals and sending Telegram alerts.</p>
+
+<p>Developed ESP32-CAM based monitoring system with automated alert messaging.</p>
+
 </div>
 
 </div>
@@ -216,19 +235,15 @@ CubeSat systems, and embedded monitoring platforms.
 
 <h2>Contact</h2>
 
-<p style="margin-top:20px;">
-Email: althwafalthwaf@gmail.com
-</p>
+<p>Email: althwafalthwaf@gmail.com</p>
 
-<p>
-LinkedIn: linkedin.com/in/althwaf-s
-</p>
+<p>LinkedIn: linkedin.com/in/althwaf-s</p>
 
 </section>
 
 <footer>
 
-<p>© 2026 Althwaf S | Aerospace Engineering Portfolio</p>
+<p>© 2026 Althwaf S | Aerospace Portfolio</p>
 
 </footer>
 
